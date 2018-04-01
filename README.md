@@ -2,7 +2,7 @@
 How to structure python code some some generic ML project. The idea is to have a generic template with an automatic worksflow.
 
 
-# structure
+# Structure
 
 ```
 .
@@ -25,3 +25,9 @@ How to structure python code some some generic ML project. The idea is to have a
 └── src                     <- all source code, internal org as needed
 ```
 
+# Instruction
+
+# References
+https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
+https://github.com/artofai/overcome-the-chaos
+https://github.com/ThomasRobertFr/ml-project-structure
