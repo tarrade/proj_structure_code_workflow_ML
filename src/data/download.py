@@ -1,8 +1,14 @@
 import requests
+import click
 
-url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-filename = 'data/raw/iris.csv'
+@click.command()
+@click.argument('url')
+@click.argument('filename', type=click.Path())
+def download_file(url, filename):
+    print('Downloading from {} to {}'.format(url, filename))
+    response = requests.get(url)
+    with open(filename,  'wb') as ofile:
+        ofile.write(response.content)
 
-with open(filename, 'wb') as ofile:
-   response = requests.get(url)
-   file.write(response.content)
+if __name__ == '__main__':
+    download_file()

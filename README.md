@@ -1,5 +1,5 @@
 # proj_structure_code_workflow_ML
-How to structure python code some some generic ML project. The idea is to have a generic template with an automatic worksflow.
+How to structure python code some some generic ML project. The idea is to have a generic template with an automatic workflow.
 
 
 # Structure
@@ -14,7 +14,7 @@ How to structure python code some some generic ML project. The idea is to have a
 │
 ├── environment.yml           <- The requirements file for reproducing the analysis environment, e.g.
 │                                generated with `pip freeze > requirements.txt`
-├── config-private.yml        <- config file in YAML, can be exported as env vars if neede
+├── config-private.yml        <- config file in YAML, can be exported as env vars if need
 │
 ├── data
 │   ├── external             <- Data from third party sources.
@@ -63,6 +63,9 @@ How to structure python code some some generic ML project. The idea is to have a
 
 ## update a python env based on a list of packages from environment.yml
 ```conda env update -f environment.yml -n chaos```
+
+## download the data manually
+python src/data/download.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" data/raw/iris.csv
 
 
 # References
