@@ -58,6 +58,12 @@ How to structure python code some some generic ML project. The idea is to have a
 ```
 
 # Instruction
+## create a python env based on a list of packages from environment.yml
+```conda env create -f environment.yml -n env_ds```
+
+## update a python env based on a list of packages from environment.yml
+```conda env update -f environment.yml -n chaos```
+
 
 # References
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
