@@ -62,7 +62,7 @@ How to structure python code some some generic ML project. The idea is to have a
 ```conda env create -f environment.yml -n env_ds```
 
 ## update a python env based on a list of packages from environment.yml
-```conda env update -f environment.yml -n chaos```
+```conda env update -f environment.yml -n env_ds```
 
 ## download the data manually
 python src/data/download.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" data/raw/iris.csv
