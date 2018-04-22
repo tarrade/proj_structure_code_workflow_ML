@@ -71,6 +71,8 @@ python src/data/download.py "https://archive.ics.uci.edu/ml/machine-learning-dat
 # References
 https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-2fa30d661c1e
 
+https://towardsdatascience.com/structure-and-automated-workflow-for-a-machine-learning-project-part-2-b5b420625102  
+
 https://github.com/artofai/overcome-the-chaos
 
 https://github.com/ThomasRobertFr/ml-project-structure
