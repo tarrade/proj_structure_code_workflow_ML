@@ -2,3 +2,6 @@
 data/
 .idea/
 notebooks/.ipynb_checkpoints/
+.pytest_cache/
+src/__pycache__/
+src/visualization/__pycache__/

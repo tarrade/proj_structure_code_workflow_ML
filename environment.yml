@@ -14,8 +14,8 @@ dependencies:
 - click
 - openpyxl
 - matplotlib
-- autopep8
 - pip:
   - watermark
   - pytest
   - sklearn
+  - autopep8
